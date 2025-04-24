@@ -1,0 +1,12 @@
+[
+  {
+    "model": "logistics.parcel",
+    "pk": 1,
+    "fields": {
+      "parcel_number": "PCK-001",
+      "campaign": 1,
+      "destination": 1,
+      "status": "In Transit"
+    }
+  }
+]

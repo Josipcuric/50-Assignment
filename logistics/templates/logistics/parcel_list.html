@@ -1,0 +1,19 @@
+{% extends 'logistics/base.html' %}
+{% block content %}
+<h2>Parcel List</h2>
+<table class="table">
+    <thead>
+        <tr><th>Parcel</th><th>Campaign</th><th>Destination</th><th>Status</th></tr>
+    </thead>
+    <tbody>
+    {% for parcel in parcels %}
+        <tr>
+            <td>{{ parcel.parcel_number }}</td>
+            <td>{{ parcel.campaign.title }}</td>
+            <td>{{ parcel.destination.city }}, {{ parcel.destination.country }}</td>
+            <td>{{ parcel.status }}</td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

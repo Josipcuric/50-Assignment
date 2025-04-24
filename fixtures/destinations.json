@@ -1,0 +1,12 @@
+[
+  {
+    "model": "logistics.destination",
+    "pk": 1,
+    "fields": {
+      "address": "123 Street Name",
+      "city": "London",
+      "postal_code": "EC1A 1AA",
+      "country": "UK"
+    }
+  }
+]

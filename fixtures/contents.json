@@ -1,0 +1,13 @@
+[
+  {
+    "model": "logistics.content",
+    "pk": 1,
+    "fields": {
+      "title": "Flyer A",
+      "type": "Flyer",
+      "file_path": "",
+      "status": "Approved",
+      "campaign": 1
+    }
+  }
+]
